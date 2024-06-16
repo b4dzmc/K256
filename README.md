@@ -10,3 +10,5 @@ K256 CPU:
 A 8-bit SOC designed for 8-bit games like the NES, based on K-Arch 1.0. The SOC features 64 5x5 sprite slots, 64 bytes of VRAM and 256 bytes of RAM. It runs games via game cards which are ROM.
 
 For more info, check out https://docs.google.com/document/d/1w9ljpUu2J0SHuIg28CjaSFIc_s-K1ICccwdyTTDJu10/edit?usp=sharing.
+
+test
