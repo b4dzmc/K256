@@ -1,14 +1,19 @@
-# K256
-K256 is a Assembly Language for the K-architecture, a series of Minecraft Redstone CPUs.
-K256 features a language closer to C called "K". K is a more C like way to program the K256 CPU.
+# What is KDE and the "K Programming Language?"
 
-K256 Assembly:
-K256 Assembly is the Assembly language of the K256 8-bit processor made in Minecraft designed to run 8-bit games. The Assembly Language and CPU features DSL (DirectSpriteLoading) and GULP (GraphicalUnitLogicalProcessing).
-The K256 Assembly Language has a maximum line of 16-bits in size (65535 lines fo code maximum).
+KDE is the K Language DE, the IDE used to program in K, a low level language like C.
 
-K256 CPU:
-A 8-bit SOC designed for 8-bit games like the NES, based on K-Arch 1.0. The SOC features 64 5x5 sprite slots, 64 bytes of VRAM and 256 bytes of RAM. It runs games via game cards which are ROM.
+# Is K Compiled?
 
-For more info, check out https://docs.google.com/document/d/1w9ljpUu2J0SHuIg28CjaSFIc_s-K1ICccwdyTTDJu10/edit?usp=sharing.
+Yes, K is a compiled language like C. the KDE features a Emulation feature that will compile the language into a small .temp file and run it from there. K compiles to K256 Assembly.
 
-test
+# Why program in K and not the Assembly Language?
+
+Well, unless you like typing in binary, KDE features Compile to MCSchematic so you can easily paste your program into the K256 SOC, and also features emulation to test programs along with a Sprite Editor to draw sprites and coding assistance. If you are up for a chanllenge, sure, you could build the game card by hand and code it by hand.
+
+# How can I install the KDE?
+
+Installing KDE is simple, there is a exe installer (don't worry it's programmed in Python, just compressed) that you can download and use to install KDE, as KDE will do everything on it's own.
+
+# How do I program in KDE?
+
+Learning to program in K is like programming in C, but closer to the langauge Lua. I have made a series on how to program in K you can check out on Google Sites that will teach you how to use KDE and how to program 2 games, simple, and a little tricky. You can check that out here: https://sites.google.com/view/k-lang/home
